@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddCategory"
+    android:background="#4B9090">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+        <ImageButton
+            android:id="@+id/imgbtn_backcategory"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/rounded"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270px"
+            android:layout_marginTop="90px"
+            android:text="Add Category"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:paddingRight="250px"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedberanda"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp"
+            android:text="Category Name"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/edt_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="30dp"
+            android:padding="5dp"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/roundedcategory"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="200dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
