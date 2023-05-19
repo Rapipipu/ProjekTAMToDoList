@@ -103,11 +103,6 @@
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"/>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/setremind"
-            android:layout_marginRight="190dp"/>
 
         <Button
             android:layout_width="match_parent"
@@ -117,15 +112,6 @@
             android:layout_marginLeft="150dp"
             android:layout_marginRight="150dp"
             android:layout_marginTop="60dp"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Delete"
-            android:textColor="@color/white"
-            android:layout_marginLeft="150dp"
-            android:layout_marginRight="150dp"
-            android:layout_marginTop="2dp"/>
 
     </LinearLayout>
 
