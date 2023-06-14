@@ -1,23 +1,36 @@
 package com.example.projektodolist;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TaskData {
+    private List<TaskObject> listTaskObject;
+
+
     public static String[][] data = new String[][]{
-            {"H-1", "ML Prak", "Proyek Akhir"},
-            {"H-3", "ADSI Prak", "Proyek Akhir"},
-            {"H-5", "TI Prak", "Proyek Akhir"},
+
     };
-    public static ArrayList<Task> getListData(){
-        Task task = null;
-        ArrayList<Task> list = new ArrayList<>();
+
+    public static ArrayList<TaskObject> getListData(){
+        TaskObject taskObject = null;
+        ArrayList<TaskObject> list = new ArrayList<>();
         for (int i = 0; i <data.length; i++){
-            task = new Task();
-            task.setDeadline(data[i][0]);
-            task.setName(data[i][1]);
-            task.setDesc(data[i][2]);
-            list.add(task);
+            taskObject = new TaskObject();
+            taskObject.setDeadline(data[i][0]);
+            taskObject.setName(data[i][1]);
+            taskObject.setDesc(data[i][2]);
+            list.add(taskObject);
         }
         return list;
+    }
+
+//    public static List<Task> getListData(){
+//        return this.listTask;
+//    }
+//    public void setListData(List<Task> listTask){
+//        this.listTask = listTask;
+//    }
+    public static void setData(String[][] data) {
+        TaskData.data = data;
     }
 }

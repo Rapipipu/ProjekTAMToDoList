@@ -56,7 +56,7 @@
             android:textColor="@color/black"/>
 
         <EditText
-            android:id="@+id/edt_category"
+            android:id="@+id/edt_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -87,7 +87,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:padding="5dp"
             android:textSize="50px"
             android:textStyle="bold"
@@ -96,15 +96,34 @@
             android:fontFamily="sans-serif-medium"
             android:textColor="@color/black"/>
 
-        <ImageView
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/date"
-            android:layout_marginLeft="48dp"
-            android:layout_marginRight="48dp"/>
+            android:textSize="50px"
+            android:layout_marginLeft="50dp"
+            android:text="DeadLine"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/edt_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="30dp"
+            android:padding="5dp"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/roundedcategory"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"/>
 
 
         <Button
+            android:id="@+id/btn_add"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="save"

@@ -11,11 +11,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="70dp"
         android:fontFamily="sans-serif-medium"
         android:text="Login"
         android:textStyle="bold"
-        android:layout_marginTop="350px"
+        android:layout_marginTop="150px"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="36dp" />
@@ -67,37 +67,9 @@
             android:fontFamily="sans-serif-medium"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-
+            android:layout_marginBottom="70dp"
             android:backgroundTint="#4B9090"
             />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:text="----------------------OR----------------------"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            />
-
-        <Button
-            android:id="@+id/btn_createaccount"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CREATE ACCOUNT"
-            android:background="@drawable/rounded3"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:padding="5dp"
-            android:textSize="14dp"
-            android:layout_marginBottom="200px"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:fontFamily="sans-serif-medium"
-            android:backgroundTint="#4B9090"
-            />
-
 
     </LinearLayout>
 </LinearLayout>

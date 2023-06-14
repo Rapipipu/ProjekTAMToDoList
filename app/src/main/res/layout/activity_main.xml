@@ -48,14 +48,14 @@
         android:textColor="@color/black"
         />
 
-    <Button
-        android:id="@+id/btn_startmain"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/btn_google"
+        android:layout_width="100dp"
+        android:src="@drawable/google"
+        android:layout_height="40dp"
         android:text="Get Started"
         android:gravity="center"
         android:textSize="16dp"
-        android:background="@drawable/rounded"
         android:fontFamily="sans-serif-medium"
         android:layout_marginTop="50dp"
         android:backgroundTint="#4B9090"

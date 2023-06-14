@@ -4,28 +4,26 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 
 public class CardViewTaskAdapter extends RecyclerView.Adapter<CardViewTaskAdapter.CardViewViewHolder>{
-    private ArrayList<Task> taskList;
+    private ArrayList<TaskObject> taskObjectList;
     private Context context;
 
     public CardViewTaskAdapter(Context context) {
         this.context = context;
     }
 
-    public ArrayList<Task> getTaskList() {
-        return taskList;
+    public ArrayList<TaskObject> getTaskList() {
+        return taskObjectList;
     }
 
-    public void setTaskList(ArrayList<Task> taskList) {
-        this.taskList = taskList;
+    public void setTaskList(ArrayList<TaskObject> taskObjectList) {
+        this.taskObjectList = taskObjectList;
     }
 
     @Override
@@ -37,7 +35,7 @@ public class CardViewTaskAdapter extends RecyclerView.Adapter<CardViewTaskAdapte
 
     @Override
     public void onBindViewHolder(CardViewViewHolder holder, int position) {
-        Task c = getTaskList().get(position);
+        TaskObject c = getTaskList().get(position);
         holder.deadline.setText(c.getDeadline());
         holder.name.setText(c.getName());
         holder.desc.setText(c.getDesc());

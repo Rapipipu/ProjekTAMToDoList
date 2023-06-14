@@ -46,6 +46,7 @@
         android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ppuser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -85,21 +86,6 @@
             android:fontFamily="sans-serif-medium"
             android:textColor="@color/black"/>
 
-        <TextView
-            android:id="@+id/tv_phoneprofile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginBottom="30dp"
-            android:padding="5dp"
-            android:textSize="50px"
-            android:textStyle="bold"
-            android:text="0851********"
-            android:textAlignment="center"
-            android:background="@drawable/roundedprofile"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="@color/black"/>
 
 
 

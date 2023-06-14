@@ -13,10 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp">
 
-        <ImageButton
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imgbtn_profile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:layout_marginLeft="50px"
             android:layout_marginTop="50px"
             android:layout_marginRight="300dp"
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="300px"
             android:layout_marginTop="140px"
-            android:paddingLeft="30dp"
+            android:paddingLeft="24dp"
             android:text="Hello, Muhammad Rafi Satria"
             android:textSize="15dp"
             android:fontFamily="sans-serif-medium"
@@ -78,7 +78,7 @@
             android:layout_marginLeft="110dp"
             android:background="@drawable/rounded"
             android:fontFamily="sans-serif-medium"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="30dp"
             android:backgroundTint="#4B9090"
             android:textColor="@color/white"
             />
